@@ -1,0 +1,38 @@
+#messages {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#panel {
+    display: flex;
+    justify-content: space-between;
+}
+#input-msg {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#send-msg-btn {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
