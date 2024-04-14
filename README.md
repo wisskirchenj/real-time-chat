@@ -1,4 +1,4 @@
-# IDEA EDU Course ...
+# Real time chat application
 
 Implemented in the Java <b>Full Stack Developer</b> Track of hyperskill.org's JetBrain Academy.<br>
 
@@ -16,8 +16,6 @@ send and see messages, and private chat between two app users.
 - Lombok
 - CSS / HTML / JS
 - Gradle 8.7
-
-# Project was completed on 30.04.22.
 
 ## Repository Contents
 
