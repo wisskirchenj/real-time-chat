@@ -1,0 +1,43 @@
+/* Grid CONTAINER */
+main {
+    display: grid;
+    grid-template-areas:
+        "Navbar  Navbar  Navbar"
+        "Ads     Main    Aside"
+        "Footer  Footer  Footer";
+}
+
+/* Grid ITEMS */
+.navbar {
+    grid-area: Navbar;
+    width: 100%;
+    height: 15vh;
+}
+
+.ads {
+    grid-area: Ads;
+    width: 25vw;
+    height: 70vh;
+}
+
+.main_content {
+    grid-area: Main;
+    width: 50vw;
+    height: 70vh;
+}
+
+.aside {
+    grid-area: Aside;
+    width: 25vw;
+    height: 70vh;
+}
+
+.footer {
+    grid-area: Footer;
+    width: 100%;
+    height: 15vh;
+}
+* {
+    text-align: center;
+    border: black 1px solid;
+}
